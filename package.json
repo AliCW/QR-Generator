@@ -1,0 +1,40 @@
+{
+  "name": "react-webpack-frontend-skeleton",
+  "version": "1.0.0",
+  "description": "front-end skeleton code for initial builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "ACW",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "lodash": "^4.17.23",
+    "path-browserify": "^1.0.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-router-dom": "^6.26.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all",
+      "jest-sorted",
+      "./testSetup.js"
+    ]
+  }
+}
