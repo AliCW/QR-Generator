@@ -19,3 +19,5 @@ Start the resource
 ## Usage
 
 Navigate to http://localhost:3000 - add text into input bar & click generate!
+
+![alt text](qr-generator-screen-shot.png)
